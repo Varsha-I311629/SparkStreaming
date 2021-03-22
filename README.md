@@ -1,0 +1,1 @@
+# sparl-kinesis-integration
