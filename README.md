@@ -45,8 +45,6 @@ $ inv describe_kinesis_stream default my-stream
 
 ## Vagrant
 ```bash
- host$ git clone https://github.com/snowplow/spark-streaming-example-project.git
- host$ cd spark-streaming-example-project
  host$ vagrant up && vagrant ssh
 guest$ cd /vagrant
 guest$ sbt compile
