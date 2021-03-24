@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Snowplow Analytics Ltd. All rights reserved.
+ * Copyright (c) Varsha Sreekumar All rights reserved.
  *
  * This program is licensed to you under the Apache License Version 2.0,
  * and you may not use this file except in compliance with the Apache License Version 2.0.
@@ -10,7 +10,7 @@
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Apache License Version 2.0 for the specific language governing permissions and limitations there under.
  */
-package com.snowplowanalytics.spark.streaming
+package com.demovar.spark.streaming
 
 // Java
 import java.io.File
@@ -39,8 +39,7 @@ import org.apache.spark.streaming.{Minutes, Seconds, Milliseconds}
  *
  * spark/bin/spark-submit --class com.snowplowanalytics.spark.streaming.StreamingCountsApp \
  *                        --master local[2] \
- *                        spark-streaming-example-project/target/scala-2.10/spark-streaming-example-project-0.1.0.jar \
- *                        --config spark-streaming-example-project/src/main/resources/config.hocon.sample
+ *                        
 */
 object StreamingCountsApp {
 
